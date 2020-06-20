@@ -1,3 +1,7 @@
+/*
+    programmer :  Anand 
+    Date       : 20/6/2020
+*/
 #include<stdio.h>
 #define MAX 100
 void merge(int arr1[],int arr2[],int arr3[],int n1,int n2);
