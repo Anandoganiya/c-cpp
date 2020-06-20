@@ -23,10 +23,7 @@ int main()
         for(i=0;i<n2;i++)
             scanf("%d",&arr2[i]);
             merge(arr1,arr2,arr3,n1,n2);
-   /* printf("\nThe Merged sorted array is :\n");
-        for(i=0;i<n1+n2;i++)
-            printf("%d",arr3[i]);
-   */
+   
 return 0;
 }
 
