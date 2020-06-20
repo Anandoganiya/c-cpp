@@ -1,5 +1,5 @@
 /*
-    programmer :  Anand 
+    programmer :  Anand
     Date       : 20/6/2020
 */
 #include<stdio.h>
@@ -12,18 +12,18 @@ int main()
     printf("Enter the size of array 1\n");
     scanf("%d",&n1);
 
-    printf("Enter array 1\n");
+    printf("Enter sorted array 1\n");
         for(i=0;i<n1;i++)
             scanf("%d",&arr1[i]);
 
     printf("\nEnter the size of array 2\n");
     scanf("%d",&n2);
 
-    printf("Enter array 1\n");
+    printf("Enter sorted array 2\n");
         for(i=0;i<n2;i++)
             scanf("%d",&arr2[i]);
             merge(arr1,arr2,arr3,n1,n2);
-   
+
 return 0;
 }
 
