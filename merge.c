@@ -1,11 +1,6 @@
-/*
-  programmer : Anand
-  Date       : 20/6/2020
-*/
 #include<stdio.h>
 #define MAX 100
 void merge(int arr1[],int arr2[],int arr3[],int n1,int n2);
-
 int main()
 {
     int arr1[MAX],arr2[MAX],arr3[2*MAX],i,n1,n2;
@@ -24,7 +19,10 @@ int main()
         for(i=0;i<n2;i++)
             scanf("%d",&arr2[i]);
             merge(arr1,arr2,arr3,n1,n2);
-   
+   /* printf("\nThe Merged sorted array is :\n");
+        for(i=0;i<n1+n2;i++)
+            printf("%d",arr3[i]);
+   */
 return 0;
 }
 
